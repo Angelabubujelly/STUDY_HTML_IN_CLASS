@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {width: 800px; height: 2000px;}
+        .box {float:left; width: 100px; height: 100px; background-color: lavender; border: 5px solid black; margin-top: 30px; margin-bottom: 50px; margin-left: 50px;}
+         #color:hover {      animation: color 3s infinite alternate;}
+         #change:hover {border-radius: 50%; transition-duration: 2s; transform: rotate(30deg); perspective-origin: left top; background-color: lightgoldenrodyellow;}
+         #rotate:hover {transform: scale(150%); box-shadow: 10px 10px 10px rgb(129, 129, 129);transition-duration: 1.5s; }
+    @keyframes color{
+        from{background-color: lightblue;}
+        50% {background-color: lightpink;}
+ 70%{background-color: lemonchiffon;}
+ to{ background-color:lightsalmon;}
+    }
+    .play-ground {width: 10px; height: 500px;  text-align: center; position: absolute;
+        animation: move 3s infinite alternate linear;}
+    .play-ground > p {
+        line-height: 200px;
+    }
+    
+    @keyframes move {
+        from {left:0; transform: rotate(0deg);}
+
+        50%{ left:500px;}
+     
+        to{left: 500px; transform: rotate(360deg);}
+    }
+    </style>
+</head>
+<body>
+    <div id="color" class="box"></div>
+    <div id="change" class="box"></div>
+    <div id ="rotate" class="box"></div>
+    <div class="play-ground">
+    <p id="p">Rotation</p>
+
+</div>
+</body>
+</html>

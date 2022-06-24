@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: rgb(156, 255, 152);}
+        div { width: 100px; height: 100px; background-color: honeydew; float: left; margin-right: 50px; animation-direction:alternate-reverse;}
+        #rot {animation-name: shape; animation-duration: 3s; }
+        #cir {animation-name: rotate; animation-duration: 3s;}
+        @keyframes shape {
+            from{
+                border: 5px solid black;
+            }
+
+            to{ border: 5px solid black;
+            border-radius: 50%;}
+
+        }
+
+        @keyframes rotate {
+            from {border: 5px solid black;
+transform: rotate(0deg);
+            }
+            to {border: 5px solid black;
+transform: rotate(999deg);
+            }
+        }
+   </style>
+</head>
+<body>
+    <div id = rot></div>
+    <div id = cir></div>
+</body>
+</html>

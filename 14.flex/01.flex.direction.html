@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* display: flex; -> flex 사용 */
+        .container {display: flex; width: 500px; margin-bottom: 20px;
+            background-color: aliceblue; border: 5px solid rgb(242, 255, 242);}
+        .box {width:80px; background-color: lavender; padding: 5px 20px; margin: 5px;}
+        p {text-align: center;}
+      #opt1 {flex-direction: row;}
+        #opt2 {flex-direction: row-reverse;}
+        #opt3 {flex-direction: column;}
+        #opt4 {flex-direction:column-reverse;}
+    </style>
+</head>
+<body>
+    <div class="container" id="opt1">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt2">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt3">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt4">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+</body>
+</html>

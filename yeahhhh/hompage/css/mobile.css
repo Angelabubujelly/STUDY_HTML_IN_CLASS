@@ -1,0 +1,37 @@
+/* Mobile버전 */
+
+    header, section, aside, article, footer {display: block;}
+    body { width: 500px; margin: 0 auto ; border: 1px solid #8ffbff; background-color:  rgb(224, 243, 255);}
+        /* 헤더 */
+    header {width:500px; height: 100px; background: url(../img/background.jpg) no-repeat left top;}
+        header>h1 {font-size: large;
+            width: 500px; position:absolute;  left: 100px; color: rgb(209, 232, 240); text-shadow: 1px 1px 1px rgb(71, 71, 71);}
+        
+        /* 네비게이션 */
+        .navi {
+            width: 500px; 
+            height: 100px;  
+            background-color: rgb(67, 162, 190);
+            margin-top: -18px;
+             text-align: center;
+             
+           }
+        .navi ul {list-style-type:none;text-align: center; line-height: 30px; 
+            height: 50px; padding: 0; width:100vw; }
+        .navi ul li {display: inline-block;  margin-top: 30px; font-size: 5px; vertical-align: middle; text-align: center; left:40px}
+
+    /* a{ text-decoration: none;} */
+    .navi a { margin: 10px; padding: 0px; }
+    .navi a:link, .navi a:visited {color: rgb(60, 65, 66);}
+    .navi a:hover, .navi a:focus {color: #75cc9c; font-weight: bold; transform: scale(1.4); text-shadow: 2px 2px 2px rgb(174, 216, 230);}
+    .navi a:active {color: rgb(93, 136, 255);}
+    /* 본문 */
+h2 {color: #ff3700; }
+/* h3 {color: #C4ABAF; } */
+p {font-weight: bold; color: #8fb8a2}
+section {position:relative; top: 100px ; width: 300px; padding-left: 10px; float: left;}
+aside{position:absolute; top:570px ;  width:100px; float: l; margin-top: 20px;}
+aside img { 
+    text-align:center; width: 360px; margin: 10px; border: 5px solid lightblue; }
+/* 푸터 */
+footer {position:relative; top:1300px ;  background-color: rgb(209, 232, 240); clear: both; margin: 0 auto; text-align: center; text-shadow: 1px 1px 1px gray;}

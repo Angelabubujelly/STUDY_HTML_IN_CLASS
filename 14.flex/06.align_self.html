@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {width: 800px; height: 200px; align-items: center;
+            display: flex;  margin-bottom: 20px;
+            background-color: aliceblue; border: 5px solid rgb(242, 255, 242);}
+        .box {width:200px; background-color: lavender; padding: 5px 20px; margin: 5px;}
+        p {text-align: center; color: rgb(190, 144, 250);}
+        /* 교차축인 수직축인 Y축 세로축을 시작점으로 배치가 된다. */
+        /* id가 더 우선순위가 높기에 id 적용 뒤 나머지는 클래스대로 적용됨 */
+
+        /* align-self: 나 자신을 교차축으로 적용시키는 방법 */
+        #as_fs {align-self: flex-start;}
+        #as_str {align-self: stretch;}
+      
+
+    
+    </style>
+</head>
+<body>
+    <div class="container" id="opt1">
+        <div class="box" id="as_fs"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box" id="as_str"><p>♪</p></div>
+        <div class="box"><p>♥</p></div>
+
+</body>
+</html>

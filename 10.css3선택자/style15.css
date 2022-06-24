@@ -1,0 +1,12 @@
+
+ul {list-style: none;}
+li {display: inline-block; float: left; padding: 10px 20px; border: 1px solid #ffffff; text-align: center; }
+ul li:first-child {border-top-left-radius: 15px; border-bottom-left-radius: 15px;}
+ul li:last-child {border-top-right-radius: 15px; border-bottom-right-radius: 15px;}
+ul li a:hover{color:azure;  text-shadow: 1px 1px 2px rgb(255, 255, 255);}
+/* ul li a:link, ul li a:visited {text-decoration: none;}; */
+ul li a:active {color: aqua;}
+li:nth-child(2n) > a{color: #ff7904;text-decoration: none; font-weight: bold; }
+li:nth-child(2n+1)>  a{color: #00b3ca; text-decoration: none;font-weight: bold; }
+ul li:nth-child(2n) {background-color: #18b6d67a;  }
+ul li:nth-child(2n+1) {background-color: #ff8f2ea2;  }

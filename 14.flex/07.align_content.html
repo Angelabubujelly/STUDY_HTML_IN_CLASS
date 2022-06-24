@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            /* display: flexl */
+            display: flex;  margin-bottom: 20px; 
+            flex-flow: row wrap; 
+            background-color: aliceblue; border: 5px solid rgb(242, 255, 242);
+        width: 200px; height: 200px;}
+        .box {width:80px; background-color: lavender; margin: 2px;}
+        p {text-align: center; color: rgb(190, 144, 250);}
+        /* align-self : 나 자신을 교차축 기준으로 배치 */
+        #opt1 {align-content: flex-start;}
+        #opt2 {align-content: flex-end;}
+        #opt3 {align-content: center;}
+        #opt4 {align-content: space-between;}
+        #opt5 {align-content:space-around;}
+        #opt6 {align-content: stretch;}
+      
+
+    
+    </style>
+</head>
+<body>
+    <div class="container" id="opt1">
+        <div class="box" ><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box" ><p>♪</p></div>
+        <div class="box"><p>♥</p></div>
+        </div>
+        <div class="container" id="opt2">
+            <div class="box" ><p>♡</p></div>
+            <div class="box"><p>♬</p></div>
+            <div class="box" ><p>♪</p></div>
+            <div class="box"><p>♥</p></div>
+            </div>
+            <div class="container" id="opt3">
+                <div class="box" ><p>♡</p></div>
+                <div class="box"><p>♬</p></div>
+                <div class="box" ><p>♪</p></div>
+                <div class="box"><p>♥</p></div>
+                </div>
+                <div class="container" id="opt4">
+                    <div class="box" ><p>♡</p></div>
+                    <div class="box"><p>♬</p></div>
+                    <div class="box" ><p>♪</p></div>
+                    <div class="box"><p>♥</p></div>
+                    </div>
+                    <div class="container" id="opt5">
+                        <div class="box"><p>♡</p></div>
+                        <div class="box"><p>♬</p></div>
+                        <div class="box" ><p>♪</p></div>
+                        <div class="box"><p>♥</p></div>
+                        </div>
+                        <div class="container" id="opt6">
+                            <div class="box"><p>♡</p></div>
+                            <div class="box"><p>♬</p></div>
+                            <div class="box" ><p>♪</p></div>
+                            <div class="box"><p>♥</p></div>
+                            </div>
+
+</body>
+</html>

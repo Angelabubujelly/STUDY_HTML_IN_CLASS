@@ -1,0 +1,44 @@
+
+body{background: url(../img/background.jpg);
+background-size: cover;}
+a:link, a:hover, a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 gray;
+}
+nav {height: 40px;
+    border-bottom: 5px solid rgb(192, 255, 208);}
+    nav ul {
+        display: block;
+        width: 720px;
+        height: 40px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    nav ul li {
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        margin-right: -6px;
+        border-bottom: 1px solid rgb(190, 223, 243);
+    }
+    nav ul li:last-child {
+        border-right: 0;
+    }
+    nav ul li a {
+        font-size: 1em;
+        line-height: 40px;
+    }
+    nav a#trigger{
+        display: none;
+    }
+nav a#trigger::after{
+    content: "";
+    background-image: url(../img/background.jpg) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+right: 15px;
+top: 10px;
+}

@@ -1,0 +1,21 @@
+#title { background-color: rgb(220, 255, 234);
+     width: 970px; text-align: center;}
+footer {background-color: rgb(232, 198, 255); width: 970px;
+    text-align: center;}
+
+img { width: 70%;
+    height: 70%;
+    margin: 15px; text-align: center;}
+#bot {width: 940px; height: 200px; }
+.ing {
+     width: 440px;
+    height: 250px; 
+}
+.container {
+    display: flex; margin: 5px;
+    flex-flow: row wrap;
+  
+}
+#opt1 {
+    justify-content: space-around;
+}

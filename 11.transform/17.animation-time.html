@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1 {width: 100px; height: 100px; 
+        animation-name: change-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function:ease-in;}
+#box2 {width: 100px; height: 100px; 
+        animation-name: change-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function:ease-out;}
+#box3 {width: 100px; height: 100px;
+        animation-name: change-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function:ease-in-out;}
+#box4 {width: 100px; height: 100px;
+        animation-name: change-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function:linear;}
+#box5{width: 100px; height: 100px; 
+        animation-name: change-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);}
+
+        @keyframes change-bg {
+            from{background-color:rgb(29, 209, 161);
+         }
+            
+            50%{background-color:rgb(254, 202, 87);
+              }
+
+            
+        to{background-color: rgb(95, 39, 205);
+            }}
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <div id="box4"></div>
+    <div id="box5"></div>
+</body>
+</html>

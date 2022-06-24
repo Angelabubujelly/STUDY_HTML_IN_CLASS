@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* display: flex; -> flex 사용 */
+        .container {display: flex;  margin-bottom: 20px;
+            background-color: aliceblue; border: 5px solid rgb(242, 255, 242);}
+        .box {width:200px; background-color: lavender; padding: 5px 20px; margin: 5px;}
+        p {text-align: center;}
+      #opt1 {flex-flow: row nowrap;}
+        #opt2 {flex-flow: row wrap;}
+        #opt3 {flex-flow: row-reverse wrap;}
+        #opt4{flex-flow: row wrap-reverse;}
+        #opt5{flex-flow: row-reverse wrap-reverse;}
+    
+    </style>
+</head>
+<body>
+    <div class="container" id="opt1">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♩</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♨</p></div>
+        <div class="box"><p>♥</p></div>
+
+
+    </div>
+    <div class="container" id="opt2">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♩</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♨</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt3">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♩</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♨</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt4">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♩</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♨</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt5">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♩</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♨</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+
+</body>
+</html>

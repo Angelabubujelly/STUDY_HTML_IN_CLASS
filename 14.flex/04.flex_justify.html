@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {display: flex;  margin-bottom: 20px;
+            background-color: aliceblue; border: 5px solid rgb(242, 255, 242);}
+        .box {width:200px; background-color: lavender; padding: 5px 20px; margin: 5px;}
+        p {text-align: center; color: rgb(190, 144, 250);}
+        /* 주축인 X축인 가로축을 시작점으로 배치가 된다. */
+      #opt1 {justify-content: flex-start;}
+/* 주축이 중간으로 배치가 된다. */
+        #opt2 {justify-content: center;}
+              /* 주축을 끝으로 배치가 된다 */
+              #opt3 {justify-content: flex-end;}
+/* 사이 간격을..똑 같 이?ㅋ */
+        #opt4{justify-content: space-between;}
+        /*앞뒤가 떨어지삼.. ㅡㅡ?; */
+        #opt5{justify-content: space-around;}
+    
+    </style>
+</head>
+<body>
+    <div class="container" id="opt1">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♥</p></div>
+
+
+    </div>
+    <div class="container" id="opt2">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt3">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt4">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+    <div class="container" id="opt5">
+        <div class="box"><p>♡</p></div>
+        <div class="box"><p>♬</p></div>
+        <div class="box"><p>♪</p></div>
+        <div class="box"><p>♥</p></div>
+    </div>
+
+</body>
+</html>

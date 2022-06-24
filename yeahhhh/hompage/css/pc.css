@@ -1,0 +1,32 @@
+/* PC버전 */
+/* @media screen and (min-width:1000px) { */
+header, section, aside, article, footer {display: block;}
+        body { width: 1200px; margin: 0 auto; border: 1px solid #83b4b6; background-color:  rgb(224, 243, 255);}
+            /* 헤더 */
+        header {height: 490px; background: url(../img/background.jpg) no-repeat left top;}
+            header>h1 {position:absolute; margin-left: 170px; margin-top: 380px;
+                 color: rgb(209, 232, 240); text-shadow: 1px 1px 1px rgb(71, 71, 71);}
+            /* 네비게이션 */
+            .navi {background-color: rgb(198, 231, 241); width: 1200px; height: 60px;  margin-top: -16px; text-align: center;}
+            .navi ul {list-style-type:none;text-align: center;}
+            .navi ul li {display: inline-block; margin-top: 17px;  }
+        .navi li {display: inline-block; margin-top: 17px; text-align: center;}
+        /* a{ text-decoration: none;} */
+        .navi a {  margin: 40px; padding: 10px; }
+        .navi a:link, .navi a:visited {color: rgb(97, 153, 172);}
+        .navi a:hover, .navi a:focus {color: #75cc9c; font-weight: bold; transform: scale(1.4); text-shadow: 2px 2px 2px rgb(174, 216, 230);}
+        .navi a:active {color: rgb(93, 136, 255);}
+        /* 본문 */
+h2 {color: #F26D49; }
+/* h3 {color: #C4ABAF; } */
+p {font-weight: bold; color: #A9B8B0}
+   section {position:relative; width: 800px; padding-left: 10px; float: left;}
+   aside{width:370px; float: right; margin-top: 20px;}
+   aside img {text-align:center; width: 360px; margin: 10px; border: 5px solid lightblue}
+   /* 푸터 */
+   footer {background-color: rgb(209, 232, 240); clear: both; margin: 0 auto; text-align: center; text-shadow: 1px 1px 1px gray;}
+    /* } */
+    /* 태블릿 버전 */
+    /* @media screen and (min-width:501px) and (max-width:999px){}
+    /* 모바일 버전 */
+    /* @media screen and (max-width:500px) {} */

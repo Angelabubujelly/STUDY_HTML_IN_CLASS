@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* absolute를 안 넣어주면 left나 top이 안 먹힘. 얘를 기준으로 바깥쪽 여백인 margin을 써줘야 위치를 지정시킬 수 있음.  */
+        div {
+            width: 100px;
+            height : 100px;
+
+        }
+        /* position이 absolute이 아니면 left와 top은 소용이 없다. 멕일라믄 margin-뫄뫄 로 입력해줘야함. */
+        /* relative 는 absolute를 기준으로 함. absolute가 없으면 relative가 없는 상위의 무엇을 기준으로  */
+
+        /* .box1 {
+            background-color: lavender;
+            left: 10px;
+            top: 10px; }*/
+            .box1 {
+                background-color:aquamarine ;
+                margin-top: 10px;
+                margin-left: 10px;
+                float: left;
+            }
+            /* 바로 위에 있는 box1을 기준으로 relative가 적용됨. */
+            .box2 {
+                background-color: lavender;
+                float: left;
+                position: relative;
+                left: -50px;
+                top: 30px;
+            }
+            .box3 {
+                background-color: chartreuse;
+                position : relative;
+                left: 110px;
+                top:50px;
+            }
+        
+        /* .box2 {
+            background-color: rgb(0, 255, 255);
+            left: 120px;
+            top: 10px;
+        }
+        .box3 {
+            background-color: yellowgreen;
+            left: 230px;
+            top: 10px;
+        } */
+    </style>
+
+</head>
+<body>
+    <div class ="box1"></div>
+    <div class ="box2"></div>
+    <div class ="box3"></div>
+
+</body>
+</html>

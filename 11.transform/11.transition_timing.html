@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div {width: 25px; height: 150px; background-color: lightblue; border: 5px solid lightgreen; margin: 12px; float: left;}
+    .box1 {transition-timing-function: linear; transition-duration: 1s}
+    .box1:hover {width: 250px; }
+    .box2{transition-timing-function: ease; transition-duration: 1s;}
+    .box2:hover {width: 250px; }
+    .box3{transition-timing-function:ease-out; transition-duration: 1s;}
+    .box3:hover {width: 250px; }
+    .box4{transition-timing-function: ease-in; transition-duration: 1s;}
+    .box4:hover {width: 250px; }
+    .box5{transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); transition-duration: 5s;}
+    .box5:hover {width: 270px; }
+</style>
+</head>
+<body>
+    <div class="box1">클라이밍 할래애</div>
+    <div class="box2">수영 할래애</div>
+    <div class="box3">인라인 탈래애</div>
+    <div class="box4">패러글라이딩 할래애</div>
+    <div class="box5">스케이트보드 탈래애</div>
+
+</body>
+</html>

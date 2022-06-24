@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{height: 500px;}
+        #back { width: 500px; height: 500px; background-color: rgb(127, 228, 113); border: 5px solid; }
+        .box {position: relative; width: 100px; height: 100px; background-color: honeydew; left:35%; margin-bottom: 50px; top: 20%; border: 5px solid;}
+        #sun {transition-duration: 3s;}
+        #circle {transition-duration: 3s; }
+        #back:hover #sun { background-color: red;}
+        #back:hover #circle {border-radius: 50%; background-color: gold;}
+    </style>
+</head>
+<body>
+    <div id = "back">
+    <div id="sun" class="box"></div>
+    <div id ="circle" class="box"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2>수강신청</h2>
+<form method="get" action="01.text.html">
+
+    <!--selected<- 넣으면 얘가 첫빠따로 뜬다-->
+    <!--  제출뒤의 내용은 action 에 있는거???로 됨???  -->
+    <!-- select 에 multiple 입력하면 3개씩 정도 보여주기도 함 -->
+    <!-- select 란에 size = 값 넣으면 그 수만큼 보여주기도 함 -->
+
+
+    <select  multiple>
+        <option value="">--선택--</option>
+        <option value="com">컴퓨터공학과</option>
+        <option value="mar">해양생물학과</option>
+        <option value="indust">건축학과</option>
+        <option value="gyul" >감귤학과</option>
+        <option value="tteok">떡꼬치학과</option>
+    </select>
+    <br><br><br>
+
+    <select >
+        <optgroup label="공과대학">
+            <option value="com">컴퓨터공학과</option>
+            <option value="mar">해양생물학과</option>
+            <option value="indust">건축학과</option>
+            <option value="gyul" >감귤학과</option>
+            <option value="tteok">떡꼬치학과</option>
+        </optgroup>
+        <optgroup label="인문대학">
+            <option value="com">고슴도치학과</option>
+            <option value="mar">해양생물학과</option>
+            <option value="indust">건축학과</option>
+            <option value="gyul" >감귤학과</option>
+            <option value="tteok">떡꼬치학과</option>
+        </optgroup>
+        <optgroup label="예술대학">
+            <option value="com">무용학과</option>
+            <option value="mar">해양생물학과</option>
+            <option value="indust">건축학과</option>
+            <option value="gyul" >감귤학과</option>
+            <option value="tteok">떡꼬치학과</option>
+        </optgroup>
+    </select>
+    &ensp;<input type="submit">
+
+</form>
+
+
+</body>
+</html>

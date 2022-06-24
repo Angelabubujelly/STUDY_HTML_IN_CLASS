@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        #bigbox {width: 600px; height: 300; border: 5px solid rgb(201, 233, 243); border-radius: 10%; padding: 20px;} 
+        .box {width: 100px; height: 100px; margin-bottom: 50px; background-color: lavender; }
+        p {text-align: center; position: relative; top: 35px;}
+        #bigbox:hover .box{ transform: rotate(360deg);margin-left: 500px;}
+        #no-delay {transition-duration: 3s;}
+        #delay {transition-duration: 3s; transition-delay: 0.5s;}
+   </style>
+</head>
+<body>
+    <div id="bigbox">
+        <div id="no-delay" class="box"><p>고슴도치</p></div>
+        <div id="delay" class="box"><p>고오스음도오치이</p></div>
+    </div>
+</body>
+</html>

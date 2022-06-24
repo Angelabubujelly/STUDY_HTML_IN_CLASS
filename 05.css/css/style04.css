@@ -1,0 +1,10 @@
+/* h2. xxx , xxx는 클래스 이름! 클래스는 이름이 겹쳐도 .xxx써주면 됩니당. */
+/* .xxx 라고 하면 xxx 이름의 클래스는 모두 적용. */
+
+h2.bluetext {color: cornflowerblue;}
+
+.greentext {color: rgb(169, 4, 219);}
+p {color: pink;}
+p {font-size: 50px; font-family: 'Times New Roman', Times, serif;}
+span{color: red;}
+span.redtext{color: brown;}

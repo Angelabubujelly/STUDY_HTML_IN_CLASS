@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ * {
+     text-align: center;
+     box-sizing: border-box;
+ }
+ body {
+     background-color: aliceblue;
+     font-size: 16px;
+ }
+ #wrapper {
+     display: grid;
+     grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+      grid-gap:1rem;
+    }
+    .card {
+      background-color:#fff;
+      box-shadow:0px 1px 5px #222;
+    }
+    .card > header {
+      font-size:1.5rem;
+      padding:0.5rem;
+    }
+    .card > p {
+      padding:0.5rem;
+      line-height:1.6em;
+    }
+    .card > img {
+      max-width:100%;
+    }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="card">
+            <header><h3>슈크림 붕어빵</h3></header>
+            <figure> <img src="img/붕어빵.PNG" alt="">
+            </figure>
+            <p>사진설명: 팥붕</p>
+            </div>
+        
+            <div class="card" >
+            <header><h3>호떡</h3></header>
+            <figure><img src="img/호떡.PNG" alt=""></figure>
+            <p>사진설명: 조심해</p>
+            </div>
+        
+            <div class="card" >
+            <header><h3>아이스크림</h3></header>
+            <figure><img src="img/떡꼬치.PNG" alt=""></figure>
+            <p>사진설명:시원해</p>
+            </div>
+        
+            <div class="card">
+            <header><h3>호빵</h3></header>
+            <figure><img src="img/호빵.PNG" alt=""></figure>
+            <p>사진설명:호호</p>
+            </div>
+            <div class="card">
+                <header><h3>딤섬</h3></header>
+                <figure><img src="img/딤섬.PNG" alt=""></figure>
+                <p>사진설명:만듀</p>
+                </div>
+                <div class="card">
+                    <header><h3>달고나</h3></header>
+                    <figure><img src="img/달고나.PNG" alt=""></figure>
+                    <p>사진설명:맛살</p>
+                    </div>
+                    <div class="card">
+                        <header><h3>맛살</h3></header>
+                        <figure><img src="img/맛살구이.PNG" alt=""></figure>
+                        <p>사진설명:피카츄</p>
+                        </div>
+                        <div class="card">
+                            <header><h3>피카츄</h3></header>
+                            <figure><img src="img/피카츄.PNG" alt=""></figure>
+                            <p>사진설명:꼬부기</p>
+                            </div>
+    </div>
+</body>
+</html>

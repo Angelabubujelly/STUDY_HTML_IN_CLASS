@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ body {width: 100%; }
+     #wrapper {
+
+       width: 800px; display: grid; height: auto;margin: 0 auto;
+       grid-template-columns: repeat(auto fit);
+      grid-gap:1rem;
+       grid-template-areas: 
+       "box1 box2"
+       "box3 box4";
+     }
+.box {box-shadow: 2px 2px 10px black;}
+
+     div {font-weight:bold; color: rgb(0, 0, 0); text-align: center; margin: 10px; }
+     #box1 {background-color: lightgreen; grid-area: box1;}
+     #box2 { background-color: lightblue; grid-area: box2;}
+    #box3 {background-color: lightpink;grid-area: box3;}
+     #box4 {background-color: lightgoldenrodyellow; grid-area: box4;}
+    h3,p {text-align: center;}
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="box" id="box1">
+            <header><h3>슈크림 붕어빵</h3></header>
+            <figure> <img src="img/붕어빵.PNG" alt="">
+            </figure>
+            <p>사진설명: 팥붕</p>
+            </div>
+        
+            <div class="box" id="box2">
+            <header><h3>호떡</h3></header>
+            <figure><img src="img/호떡.PNG" alt=""></figure>
+            <p>사진설명: 조심해</p>
+            </div>
+        
+            <div class="box" id="box3">
+            <header><h3>아이스크림</h3></header>
+            <figure><img src="img/떡꼬치.PNG" alt=""></figure>
+            <p>사진설명:시원해</p>
+            </div>
+        
+            <div class="box" id="box4">
+            <header><h3>호빵</h3></header>
+            <figure><img src="img/호빵.PNG" alt=""></figure>
+            <p>사진설명:호호</p>
+            </div>
+    </div>
+</body>
+</html>

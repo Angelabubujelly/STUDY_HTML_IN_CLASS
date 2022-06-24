@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 있으면 저 목록에서 고를 수 있지만, 목록에 없는거는 입력해서 제출 가능. -->
+    <h3>관심분야</h3>
+<form>
+    <input type="text" list="choice">
+    <datalist id="choice">
+        <option value="grammar" label="문법"></option>
+        <option value="voc">어휘</option>
+        <option value="speaking">회화</option>
+        <option value="reading">독해</option>
+        <option value="listening">리스닝</option>
+    </datalist>
+    <input type="submit" >
+</form>
+
+
+</body>
+</html>
